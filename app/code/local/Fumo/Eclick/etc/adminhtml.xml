@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Mage Fumo Eclick
+ *
+ * NOTICE OF LICENSE
+ * This source file is subject to the Mage Fumo EULA License which is bundled with
+ * this package in the files LICENSE.txt.
+ *
+ * DISCLAIMER
+ * It is strictly prohibited to copy, redistribute, republish or modify
+ * (in parts or whole) this file or any other file included in the same package.
+ *
+ * @category	Service Integration Extension
+ * @package		Fumo_Eclick
+ * @author		Fumo 2014/12/15
+ * @copyright	Copyright (c) 2008-2015 Mage Fumo. (http://http://mage.fu-mo.co.jp//)
+ * @license		Mage Fumo EULA License
+ */
+-->
+<config>
+  <acl>
+    <resources>
+      <all>
+        <title>Allow Everything</title>
+      </all>
+      <admin>
+        <children>
+          <system>
+            <children>
+              <config>
+                <children>
+                  <fumo_eclick translate="title" module="fumo_eclick">
+                    <title>Fumo &gt; Eclick</title>
+                    <sort_order>1000</sort_order>
+                  </fumo_eclick>
+                </children>
+              </config>
+            </children>
+          </system>
+        </children>
+      </admin>
+    </resources>
+  </acl>
+</config>

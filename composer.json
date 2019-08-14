@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Fumo_Eclick",
+    "type": "magento-module",
+    "license": "Mage-Fumo-EULA",
+    "homepage": "",
+    "description": "Fumo Yamato Transport is the first and original Magento Extension for the E-Click Affiliate Service (Japan).",
+    "authors": [
+    {
+        "name": "Mage Fumo",
+        "email": "mage@fu-mo.co.jp"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,8 @@
+"Global settings","全般設定"
+"Enable Eclick Integration Code","イークリックコードを使用する"
+"Yes","はい"
+"No","いいえ"
+"Eclick Affiliate Tag","イークリックアフィリエイトタグ"
+"Copy and paste affiliate tag from Eclick admin program page. You can specify multiple tags one per line.<br> (Ex. &lt;img src=&quot;http://www.e-click.jp/applications/applicate/XXXX/税抜売上金額/識別コード&quot; height=&quot;1&quot; width=&quot;1&quot; /&gt; )","イークリック管理画面のプログラム確認ページよりアフィリエイトタグをコピー＆ペーストして下さい。複数のプログラムのタグを指定する場合は１行毎に１タグを入力します。<br>（例： &lt;img src=&quot;http://www.e-click.jp/applications/applicate/XXXX/税抜売上金額/識別コード&quot; height=&quot;1&quot; width=&quot;1&quot; /&gt; ）"
+"Eclick Integration","イークリック設定"
+"Enable or disable the eclick integration code on checkout success page.<br>Adds E-Click affiliate service's affiliate code to Magento Checkout Complete page with necessary parameters.<br>For details of E-Click affiliate service, please <a href=""http://www.e-click.jp/"" target=""_blank"">click here</a>.","イークリックコードを購入完了ページに含めるかどうかを設定します。<br>イークリック広告主コードをMagentoの注文完了ページに必要なパラメータと共に挿入します。<br>イークリックアフィリエイトサービスについての詳細は、<a href=""http://www.e-click.jp/"" target=""_blank"">ココをクリック</a>して下さい。"

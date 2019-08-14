@@ -1,0 +1,8 @@
+"Global settings","Global settings"
+"Enable Eclick Integration Code","Enable Eclick Integration Code"
+"Yes","Yes"
+"No","No"
+"Eclick Affiliate Tag","Eclick Affiliate Tag"
+"Copy and paste affiliate tag from Eclick admin program page. You can specify multiple tags one per line.<br> (Ex. &lt;img src=&quot;http://www.e-click.jp/applications/applicate/XXXX/税抜売上金額/識別コード&quot; height=&quot;1&quot; width=&quot;1&quot; /&gt; )","opy and paste affiliate tag from Eclick admin program page. You can specify multiple tags one per line.<br> (Ex. &lt;img src=&quot;http://www.e-click.jp/applications/applicate/XXXX/税抜売上金額/識別コード&quot; height=&quot;1&quot; width=&quot;1&quot; /&gt; )"
+"Eclick Integration","Eclick Integration"
+"Enable or disable the eclick integration code on checkout success page.<br>Adds E-Click affiliate service's affiliate code to Magento Checkout Complete page with necessary parameters.<br>For details of E-Click affiliate service, please <a href=""http://www.e-click.jp/"" target=""_blank"">click here</a>.","Enable or disable the eclick integration code on checkout success page.<br>Adds E-Click affiliate service's affiliate code to Magento Checkout Complete page with necessary parameters.<br>For details of E-Click affiliate service, please <a href=""http://www.e-click.jp/"" target=""_blank"">click here</a>.

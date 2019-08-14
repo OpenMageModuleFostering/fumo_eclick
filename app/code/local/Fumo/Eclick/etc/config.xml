@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Mage Fumo Eclick
+ *
+ * NOTICE OF LICENSE
+ * This source file is subject to the Mage Fumo EULA License which is bundled with
+ * this package in the files LICENSE.txt.
+ *
+ * DISCLAIMER
+ * It is strictly prohibited to copy, redistribute, republish or modify
+ * (in parts or whole) this file or any other file included in the same package.
+ *
+ * @category	Service Integration Extension
+ * @package		Fumo_Eclick
+ * @author		Fumo 2014/12/15
+ * @copyright	Copyright (c) 2008-2015 Mage Fumo. (http://http://mage.fu-mo.co.jp//)
+ * @license		Mage Fumo EULA License
+ */
+-->
+<config>
+
+	<!-- ********************* MODULE CONFIGURATION ******************* -->
+    <modules>
+        <Fumo_Eclick>
+             <version>0.0.1</version>
+        </Fumo_Eclick>
+    </modules>
+
+    <!-- *********************** GLOBAL SETTINGS ********************** -->
+    <global>
+    	<!-- Extension blocks -->
+        <blocks>
+            <fumo_eclick>
+                <class>Fumo_Eclick_Block</class>
+            </fumo_eclick>
+        </blocks>
+        <!-- Extension helpers -->
+        <helpers>
+            <fumo_eclick>
+                <class>Fumo_Eclick_Helper</class>
+            </fumo_eclick>
+        </helpers>
+    </global>
+    
+    <!-- ********************** FRONTEND SETTINGS ********************* -->
+    <frontend>
+    	<!-- Translations -->
+    	<translate>
+    		<modules>
+				<Fumo_Eclick>
+					<files>
+						<default>Fumo_Eclick.csv</default>
+					</files>
+				</Fumo_Eclick>
+			</modules>
+		</translate>
+		<!-- Frontend layout updates -->
+		<layout>
+			<updates>
+				<fumo_eclick>
+					<file>fumo_eclick.xml</file>
+				</fumo_eclick>
+			</updates>
+		</layout>
+    </frontend>
+    
+    <!-- ********************** BACKEND SETTINGS ********************** -->
+    <adminhtml>
+		<!-- Translations -->
+    	<translate>
+    		<modules>
+				<Fumo_Eclick>
+					<files>
+						<default>Fumo_Eclick.csv</default>
+					</files>
+				</Fumo_Eclick>
+			</modules>
+		</translate>
+	</adminhtml>
+
+</config>

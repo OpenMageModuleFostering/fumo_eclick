@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Mage Fumo Eclick
+ *
+ * NOTICE OF LICENSE
+ * This source file is subject to the Mage Fumo EULA License which is bundled with
+ * this package in the files LICENSE.txt.
+ *
+ * DISCLAIMER
+ * It is strictly prohibited to copy, redistribute, republish or modify
+ * (in parts or whole) this file or any other file included in the same package.
+ *
+ * @category	Service Integration Extension
+ * @package		Fumo_Eclick
+ * @author		Fumo 2014/12/15
+ * @copyright	Copyright (c) 2008-2015 Mage Fumo. (http://http://mage.fu-mo.co.jp//)
+ * @license		Mage Fumo EULA License
+ */
+-->
+<config>
+	<!-- ******************* FUMO TAB GROUP **************** -->
+    <tabs>
+        <fumo>
+            <label>Fumo Extensions</label>
+            <sort_order>101</sort_order>
+        </fumo>
+    </tabs>
+
+	<sections>
+		<!-- ********************* ECLICK SETTINGS ******************* -->
+	    <fumo_eclick translate="label" module="fumo_eclick">
+            <label>Eclick Integration</label>
+            <tab>fumo</tab>
+            <sort_order>50</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+			<groups>
+				<!-- Global Settings -->
+				<general translate="label">
+					<label>Global settings</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<enabled translate="label">
+                            <label>Enable Eclick Integration Code</label>
+                            <comment><![CDATA[Enable or disable the eclick integration code on checkout success page.<br>Adds E-Click affiliate service's affiliate code to Magento Checkout Complete page with necessary parameters.<br>For details of E-Click affiliate service, please <a href="http://www.e-click.jp/" target="_blank">click here</a>.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <eclick_affiliate_tag translate="label">
+                            <label>Eclick Affiliate Tag</label>
+                            <comment><![CDATA[Copy and paste affiliate tag from Eclick admin program page. You can specify multiple tags one per line.<br> (Ex. &lt;img src=&quot;http://www.e-click.jp/applications/applicate/XXXX/税抜売上金額/識別コード&quot; height=&quot;1&quot; width=&quot;1&quot; /&gt; )]]></comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </eclick_affiliate_tag> 											
+					</fields>
+				</general>
+			</groups>
+		</fumo_eclick>
+	</sections>
+</config>

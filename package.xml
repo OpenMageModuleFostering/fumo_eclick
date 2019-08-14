@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fumo_Eclick</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://mage.fu-mo.co.jp/license-agreement/">Mage Fumo EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Fumo Yamato Transport is the first and original Magento Extension for the E-Click Affiliate Service (Japan).</summary>
+    <description>This extension will integrate E-Click Affiliate code to Magento Checkout Complete page with neccessary data like order ID and order total.&#xD;
+&#xD;
+The extension offer several unique features such as:&#xD;
+- Add E-Click Affiliate code to Magento Checkout Complete page.&#xD;
+- Automatically include Order Id and Order Total values into the code.&#xD;
+- Only thing you need to do is to copy and paste your E-Click Affiliate code in the admin panel.&#xD;
+- For Details of E-Click Affiliate Service : https://www.e-click.jp/advertisers.html (Japanese)</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Mage Fumo</name><user>MageFumo</user><email>mage@fu-mo.co.jp</email></author></authors>
+    <date>2015-10-24</date>
+    <time>15:46:22</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Fumo_Eclick.xml" hash="c5f2638b3e60a1ab13ae31d353b4a0e7"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Fumo_Eclick.csv" hash="355214e98bcc1e64c26f2bb695433b0b"/></dir><dir name="ja_JP"><file name="Fumo_Eclick.csv" hash="9e5699126d1202de6ffd2521dbda83a7"/></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="fumo_eclick.xml" hash="92282095c312608341394bac2cc2ea5c"/></dir></dir></dir></dir></target><target name="magelocal"><dir name="Fumo"><dir name="Eclick"><dir name="Block"><file name="Eclick.php" hash="53f902bd66adb48b0770dcaad2ef278b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6cb8c358dbb88e665a7b4cb4fb8344ee"/><file name="config.xml" hash="7ead237ae352df7a2ee2c303d5bbcc62"/><file name="system.xml" hash="9b4e7e2f24457e285da6c18b566434a4"/></dir><dir name="Helper"><file name="Data.php" hash="c536fa6346d8f2103b63bdf787a5ff56"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.5.0</max></php></required></dependencies>
+</package>
