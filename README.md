@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Fumo Yamato Transport is the first and original Magento Extension for the E-Click Affiliate Service (Japan).
